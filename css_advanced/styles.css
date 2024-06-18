@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3";
+    color: white;
+}
+
+header {
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+nav {
+    margin-left: 10%; 
+    display: flex;
+    width: 80%;
+    padding-top: 2%;
+    justify-content: space-between;
+}
+
+.nav_right{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_header {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_header_h1 {
+    font-size: 120px;
+    text-align: center;
+}
+
+.main_header_h1 + p {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    gap: 8%;
+    font-weight: 700;
+}
+
+p + button {
+    height: 44px;
+    width: 162px;
+    border-style: none;
+    border-radius: 22px;
+    background-color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 7%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 20px, 0;
+}
+
+.pros_header {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.pros_header > span {
+    color: rgba(194, 113, 255, 1);
+
+}
+
+.pros {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+}
+
+.pros div {
+    width: 150px;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #C271FF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    gap: 5%;
+}
+
+.quote > div {
+    display: flex;
+}
+
+.quote > div {
+    width: 50%;
+}
+
+.quote blockquote {
+    display:flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+
+.quote_person {
+    margin-top: 4%;
+    font-weight: 700;
+}
+
+.quote_subtext {
+    font-style: italic;
+}
+
+.tutorials_header {
+    text-align: center;
+    font-weight: 300;
+    color: black;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.tutorials_header > span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+.tutor {
+    width: 255px;
+}
+
+.tutor::before {
+    content: url(play.png);
+    position: relative;
+    top: 110px;
+    left: 96px;
+}
+
+.tutor > img {
+    padding-left: 0;
+    display: block;
+    border-radius: 5px, 5px, 0, 0;
+}
+
+.tutor > h2 {
+    color: black;
+    font-size: 16px;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+.tutor > p {
+    color: rgba(7, 22, 41, 0.5);   
+    font-size: 14px;
+    width: 90%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+
+
+.author {
+    display: flex;
+    padding-top: 3%;
+    padding-left: 5%;
+    
+}
+
+.author > h3 {
+    color: #C271FF;
+    padding-left: 5%;
+    font-weight: 600;
+}
+
+.rating {
+    
+    padding-top: 3%;
+    padding-left: 5%;
+    gap: 3%;
+    
+}
+
+
+.rating > p {
+    float: right;
+    color: #C271FF;
+    font-weight: 600;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #071629;
+    padding-top: 5%;
+}
+
+.membership > h1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.membership > h1 > span {
+    color: #C271FF;
+    font-weight: 700;
+}
+
+.membership > div {
+    display: flex;
+    width: 90%;
+    padding-top: 5%;
+    justify-content: center;
+    gap: 3%;
+}
+
+.membership > div > div {
+    text-align: center;
+    width: 20%;
+}
+
+
+.membership > div >  div > h2 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10%;
+}
+
+.membership > div > div > p {
+    display: inline-block;
+    width: 70%;
+    padding-top: 10%;
+}
+
+.membership > div > p {
+    font-size: 14px;
+}
+
+.membership > button {
+    width: 162px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 14px;
+    border-style: none;
+    background-color: #C271FF;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 2px 20px, 0;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.FAQ {
+    padding-bottom: 5%;
+}
+
+.FAQ > h1 {
+    color: #071629;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.FAQ > div > div {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 10%;
+    gap: 10%;
+}
+
+.how > h2 {
+    color:#071629;
+    font-size: 16px;
+    text-align: center;
+}
+
+.how > p {
+    color: rgba(7, 22, 41, 0.5016);
+    width: 64%;
+    font-size: 14px;
+    padding-top: 5%;
+    padding-left: 22%;
+}
+
+footer {
+    background-color: #071629;
+}
+
+footer > div {
+    width: 80%;
+    padding-left: 10%;
+    padding-top:5%;
+    padding-bottom: 3%;
+}
+
+footer > div > div > div {
+    float:right;
+}
+
+footer > div > div > p {
+    padding-top: 5%;
+    text-align: center;
+}
