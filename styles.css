@@ -328,7 +328,7 @@ footer > div {
 }
 
 footer > div > div > div {
-    width: 10%;
+    width: auto;
     display: flex;
     gap: 15%;
     float: right;
