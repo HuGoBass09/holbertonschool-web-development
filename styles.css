@@ -320,14 +320,18 @@ footer {
 }
 
 footer > div {
+    justify-content: space-between;
     width: 80%;
     padding-left: 10%;
-    padding-top:5%;
+    padding-top: 5%;
     padding-bottom: 3%;
 }
 
 footer > div > div > div {
-    float:right;
+    width: 10%;
+    display: flex;
+    gap: 15%;
+    float: right;
 }
 
 footer > div > div > p {
